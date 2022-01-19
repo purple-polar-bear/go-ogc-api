@@ -1,9 +1,14 @@
 package coreservices
 
 import(
+  _ "embed"
   "github.com/purple-polar-bear/go-ogc-api/core/models"
   "github.com/getkin/kin-openapi/openapi3"
 )
+
+// Load the oaf.yml base template
+//go:embed oaf.yml
+var serviceSpec []byte
 
 type CoreService interface {
   OpenAPI() *openapi3.T
@@ -46,10 +51,9 @@ func NewCoreService() CoreService {
   loader := openapi3.NewLoader()
   loader.IsExternalRefsAllowed = true
 
-  serviceSpecPath := "./package/core/oaf.yml"
-  openapi, err := loader.LoadFromFile(serviceSpecPath)
+  openapi, err := loader.LoadFromData(serviceSpec)
   if err != nil {
-    panic("Cannot Loadswagger from file :" + serviceSpecPath)
+    panic("Cannot Loadswagger from base reference file")
   }
 
   return &coreService{

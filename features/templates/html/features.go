@@ -1,6 +1,7 @@
 package htmltemplates
 
 import(
+  "embed"
   "html/template"
   "github.com/purple-polar-bear/go-ogc-api/core/models"
   "github.com/purple-polar-bear/go-ogc-api/core/templates/html"
@@ -8,14 +9,12 @@ import(
   "github.com/purple-polar-bear/go-ogc-api/features/viewmodels"
 )
 
+//go:embed templates/*
+var templateFiles embed.FS
+
 // Transforms a renderlandingpage function into a renderlandingpage object
 func NewFeatureRenderer() *FeatureRenderer {
-  templates := htmltemplates.NewTemplate("features", []string{
-    "collections.html",
-    "collection.html",
-    "features.html",
-    "feature.html",
-  })
+  templates := htmltemplates.NewTemplate("features", templateFiles)
 
   return &FeatureRenderer{
     Templates: templates,

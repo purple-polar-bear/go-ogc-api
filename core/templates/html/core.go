@@ -1,18 +1,18 @@
 package htmltemplates
 
 import(
+  "embed"
   "html/template"
   "github.com/purple-polar-bear/go-ogc-api/core/models"
   "github.com/purple-polar-bear/go-ogc-api/core/viewmodels"
 )
 
+//go:embed templates/*
+var templateFiles embed.FS
+
 // Transforms a renderlandingpage function into a renderlandingpage object
 func NewCoreRenderer() *CoreRenderer {
-  templates := NewTemplate("core", []string{
-    "conformance.html",
-    "landingpage.html",
-    "api.html",
-  })
+  templates := NewTemplate("core", templateFiles)
 
   return &CoreRenderer{
     Templates: templates,
