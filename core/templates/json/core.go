@@ -1,9 +1,9 @@
 package jsontemplates
 
 import(
-  "oaf-server/package/core/models"
-  "oaf-server/package/core/viewmodels"
-  "oaf-server/package/core/templates"
+  "github.com/purple-polar-bear/go-ogc-api/core/models"
+  "github.com/purple-polar-bear/go-ogc-api/core/viewmodels"
+  "github.com/purple-polar-bear/go-ogc-api/core/templates"
 )
 
 type CoreRenderer struct {

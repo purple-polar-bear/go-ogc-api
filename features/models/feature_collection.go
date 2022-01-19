@@ -1,7 +1,7 @@
 package featuremodels
 
 import(
-  "oaf-server/package/core/viewmodels"
+  "github.com/purple-polar-bear/go-ogc-api/core/viewmodels"
 )
 
 type FeatureCollection struct {

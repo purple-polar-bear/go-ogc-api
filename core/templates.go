@@ -1,9 +1,9 @@
 package apicore
 
 import(
-  "oaf-server/package/core/models"
-  "oaf-server/package/core/templates/json"
-  "oaf-server/package/core/templates/html"
+  "github.com/purple-polar-bear/go-ogc-api/core/models"
+  "github.com/purple-polar-bear/go-ogc-api/core/templates/json"
+  "github.com/purple-polar-bear/go-ogc-api/core/templates/html"
 )
 
 type Templates struct {

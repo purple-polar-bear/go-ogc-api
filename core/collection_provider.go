@@ -2,7 +2,7 @@ package apicore
 
 /*
 import(
-  "oaf-server/package/core/controllers"
+  "github.com/purple-polar-bear/go-ogc-api/core/controllers"
 )
 
 type CollectionProvider interface {

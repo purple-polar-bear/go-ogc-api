@@ -3,10 +3,10 @@ package featurescontrollers
 import(
   "net/http"
 
-  "oaf-server/package/core/services"
-  "oaf-server/package/core/models"
-  "oaf-server/package/features/services"
-  "oaf-server/package/features/templates/core"
+  "github.com/purple-polar-bear/go-ogc-api/core/services"
+  "github.com/purple-polar-bear/go-ogc-api/core/models"
+  "github.com/purple-polar-bear/go-ogc-api/features/services"
+  "github.com/purple-polar-bear/go-ogc-api/features/templates/core"
 )
 
 type CollectionController struct {

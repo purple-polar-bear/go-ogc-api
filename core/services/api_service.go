@@ -1,7 +1,7 @@
 package coreservices
 
 import(
-  "oaf-server/package/core/models"
+  "github.com/purple-polar-bear/go-ogc-api/core/models"
   "github.com/getkin/kin-openapi/openapi3"
 )
 

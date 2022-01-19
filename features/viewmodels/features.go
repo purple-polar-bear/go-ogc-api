@@ -3,7 +3,7 @@ package viewmodels
 import(
 	"time"
 
-  "oaf-server/package/core/viewmodels"
+  "github.com/purple-polar-bear/go-ogc-api/core/viewmodels"
 )
 
 type Features struct {

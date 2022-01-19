@@ -4,7 +4,7 @@ import(
   "encoding/json"
   "fmt"
   "net/http"
-  "oaf-server/package/core/models"
+  "github.com/purple-polar-bear/go-ogc-api/core/models"
 )
 
 func RenderPage(context *coremodels.Webcontext, resource interface{}) {

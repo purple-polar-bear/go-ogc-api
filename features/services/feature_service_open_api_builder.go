@@ -1,7 +1,7 @@
 package featureservices
 
 import (
-  "oaf-server/package/core/services"
+  "github.com/purple-polar-bear/go-ogc-api/core/services"
   "github.com/getkin/kin-openapi/openapi3"
 )
 

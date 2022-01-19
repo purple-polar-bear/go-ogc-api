@@ -3,7 +3,7 @@ package featuremodels
 import (
 	"encoding/json"
 
-  "oaf-server/package/core/viewmodels"
+  "github.com/purple-polar-bear/go-ogc-api/core/viewmodels"
 )
 
 type Feature struct {

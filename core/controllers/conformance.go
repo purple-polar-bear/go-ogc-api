@@ -3,9 +3,9 @@ package corecontrollers
 import(
   "net/http"
 
-  "oaf-server/package/core/models"
-  "oaf-server/package/core/viewmodels"
-  "oaf-server/package/core/templates"
+  "github.com/purple-polar-bear/go-ogc-api/core/models"
+  "github.com/purple-polar-bear/go-ogc-api/core/viewmodels"
+  "github.com/purple-polar-bear/go-ogc-api/core/templates"
 )
 
 // The conformance controller returns the conformance classes of the API

@@ -1,9 +1,9 @@
 package coretemplates
 
 import(
-  "oaf-server/package/core/models"
-  "oaf-server/package/features/models"
-  "oaf-server/package/features/viewmodels"
+  "github.com/purple-polar-bear/go-ogc-api/core/models"
+  "github.com/purple-polar-bear/go-ogc-api/features/models"
+  "github.com/purple-polar-bear/go-ogc-api/features/viewmodels"
 )
 
 // Interface definition for features renderer

@@ -1,11 +1,11 @@
 package jsontemplates
 
 import(
-  "oaf-server/package/core/models"
-  "oaf-server/package/core/templates/json"
-  "oaf-server/package/features/models"
-  "oaf-server/package/features/viewmodels"
-  "oaf-server/package/features/templates/core"
+  "github.com/purple-polar-bear/go-ogc-api/core/models"
+  "github.com/purple-polar-bear/go-ogc-api/core/templates/json"
+  "github.com/purple-polar-bear/go-ogc-api/features/models"
+  "github.com/purple-polar-bear/go-ogc-api/features/viewmodels"
+  "github.com/purple-polar-bear/go-ogc-api/features/templates/core"
 )
 
 type FeatureRenderer struct {

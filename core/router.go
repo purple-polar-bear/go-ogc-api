@@ -6,8 +6,8 @@ import(
   "regexp"
   "strings"
 
-  "oaf-server/package/core/services"
-  "oaf-server/package/core/models"
+  "github.com/purple-polar-bear/go-ogc-api/core/services"
+  "github.com/purple-polar-bear/go-ogc-api/core/models"
 )
 
 type Router interface {

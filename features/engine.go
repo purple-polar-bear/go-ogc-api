@@ -1,9 +1,9 @@
 package apifeatures
 
 import(
-  "oaf-server/package/core"
-  "oaf-server/package/features/controllers"
-  "oaf-server/package/features/services"
+  "github.com/purple-polar-bear/go-ogc-api/core"
+  "github.com/purple-polar-bear/go-ogc-api/features/controllers"
+  "github.com/purple-polar-bear/go-ogc-api/features/services"
 )
 
 func EnableFeatures(engine apicore.Engine, service featureservices.FeatureService) {

@@ -1,9 +1,9 @@
 package apifeatures
 
 import(
-  "oaf-server/package/core"
-  "oaf-server/package/features/templates/json"
-  "oaf-server/package/features/templates/html"
+  "github.com/purple-polar-bear/go-ogc-api/core"
+  "github.com/purple-polar-bear/go-ogc-api/features/templates/json"
+  "github.com/purple-polar-bear/go-ogc-api/features/templates/html"
 )
 
 // Shortcut functions to add JSON responses to all endpoints

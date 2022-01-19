@@ -2,10 +2,10 @@ package htmltemplates
 
 import(
   "html/template"
-  "oaf-server/package/core/models"
-  "oaf-server/package/core/templates/html"
-  "oaf-server/package/features/models"
-  "oaf-server/package/features/viewmodels"
+  "github.com/purple-polar-bear/go-ogc-api/core/models"
+  "github.com/purple-polar-bear/go-ogc-api/core/templates/html"
+  "github.com/purple-polar-bear/go-ogc-api/features/models"
+  "github.com/purple-polar-bear/go-ogc-api/features/viewmodels"
 )
 
 // Transforms a renderlandingpage function into a renderlandingpage object
